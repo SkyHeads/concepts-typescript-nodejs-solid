@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src="assets/Typescript.png" width="100px" />
+    <img alt="typescript" title="#delicinha" src="assets/Typescript.png" width="100px" />
 </h1>
 
 <h4 align="center">
@@ -7,5 +7,7 @@
 </h4>
 
 <h1 align="center">
-  <img alt="BeTheHero" src="assets/node.svg" width="25%">
+  <img alt="node.js" src="assets/node.svg" width="25%">
+  
+  <img alt="solid" src="assets/solid.jpeg" width="25%">
 </h1>
