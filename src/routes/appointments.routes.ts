@@ -3,7 +3,7 @@ import { Router } from 'express';
 import { parseISO } from 'date-fns';
 
 import AppointmentsRepository from '../repositories/AppointmentRepository';
-import CreateAppointmentService from '../services/createAppointmentService';
+import CreateAppointmentService from '../services/CreateAppointmentService';
 
 const appointmentRouter = Router();
 
@@ -17,7 +17,7 @@ appointmentRouter.get('/', async (request, response) => {
 
 appointmentRouter.post('/', async (request, response) => {
   try {
-    const { provider, date } = request.body;
+    const { provider_id, date } = request.body;
 
     const parsedDate = parseISO(date);
 
@@ -25,7 +25,7 @@ appointmentRouter.post('/', async (request, response) => {
 
     const appointment = await createAppointment.execute({
       date: parsedDate,
-      provider,
+      provider_id,
     });
 
     return response.json(appointment);
