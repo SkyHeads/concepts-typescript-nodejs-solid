@@ -30,7 +30,7 @@
       "argsIgnorePattern": "_"
     }],
     "no-console": "off",
-    "import/no-unresolved": "off",
+    // "import/no-unresolved": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
