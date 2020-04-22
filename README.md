@@ -7,7 +7,18 @@
 </h4>
 
 <h1 align="center">
-  <img alt="node.js" src="assets/node.svg" width="25%">
+  <img alt="node.js" src="assets/node.svg" width="20%">
   
-  <img alt="solid" src="assets/solid.jpeg" width="25%">
+  <img alt="solid" src="assets/solid.jpeg" width="20%">
 </h1>
+
+- [Typescript](https://www.typescriptlang.org/)
+- [Ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+- [Express](https://expressjs.com/pt-br/)
+- [Typeorm](https://typeorm.io/#/)
+- [Json-web-token](https://www.npmjs.com/package/jsonwebtoken)
+- [Date-fns](https://date-fns.org/)
+- [Multer](https://github.com/expressjs/multer)
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [Express-async-errors](https://www.npmjs.com/package/express-async-errors)
+- [Docker](https://www.docker.com/)
