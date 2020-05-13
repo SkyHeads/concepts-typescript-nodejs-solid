@@ -10,12 +10,12 @@ import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 
 const usersRouter = Router();
 const upload = multer(uploadConfig);
-const usersRepository = new UsersRepository();
 
 usersRouter.post('/', async (request, response) => {
   try {
     const { name, email, password } = request.body;
 
+    const usersRepository = new UsersRepository();
     const createUser = new CreateUserService(usersRepository);
 
     const user = await createUser.execute({
@@ -37,6 +37,7 @@ usersRouter.patch(
   upload.single('files'),
   ensureAuthenticated,
   async (request, response) => {
+    const usersRepository = new UsersRepository();
     const updateUserAvatar = new UpdateUserAvatarService(usersRepository);
 
     const user = await updateUserAvatar.execute({
