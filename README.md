@@ -26,3 +26,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [Express-async-errors](https://www.npmjs.com/package/express-async-errors)
 - [Docker](https://www.docker.com/)
+- [Jest](https://jestjs.io/)
+
