@@ -12,9 +12,9 @@
   <img alt="solid" src="assets/solid.jpeg" width="20%">
 </h1>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
