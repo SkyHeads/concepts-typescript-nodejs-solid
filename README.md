@@ -28,3 +28,6 @@ This project was developed with the following technologies:
 - [Docker](https://www.docker.com/)
 - [Jest](https://jestjs.io/)
 
+<h4 align="center">
+    Done with 💜 by <a href="https://www.linkedin.com/in/bruno-fernandes-517026187/" target="_blank">Bruno Fernandes</a>
+</h4>
